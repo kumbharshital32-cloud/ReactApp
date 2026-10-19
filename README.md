@@ -25,7 +25,7 @@ npm --version
 
 ```bash
 # 1. Clone the repository
-git clone <this-repo-url>
+git clone https://github.com/kumbharshital32-cloud/ReactApp.git
 cd ReactApp/ReactApp
 
 # 2. Install packages
