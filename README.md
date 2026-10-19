@@ -98,6 +98,8 @@ The top bar has **List** and **Add** links, and **Login / Logout** (with the use
 
 Login uses **Auth0** (OAuth2 / OIDC, Authorization Code flow with PKCE, handled by the Auth0 React SDK).
 
+**Logging in (for reviewers):** click **Login** → on the Auth0 page choose **Sign up** to create an account (or use the test account provided in the submission email). The List page works without login; Add, Edit and Delete require it.
+
 **Access decision:**
 - The **List** page is **public**, so anyone can view users.
 - **Add** and **Edit** require login, and the Edit/Delete buttons are hidden when logged out.
